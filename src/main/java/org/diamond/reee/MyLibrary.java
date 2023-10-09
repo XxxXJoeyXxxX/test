@@ -1,5 +1,6 @@
 package org.diamond.reee;
 
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Level;
@@ -7,7 +8,9 @@ import java.util.logging.Level;
 public class MyLibrary extends JavaPlugin {
 
     private static JavaPlugin plugin;
-
+    public static String getPlayerName(Player p){
+        return p.getDisplayName();
+    }
     // For other classes in our library
     public static JavaPlugin getPlugin() {
         return plugin;
