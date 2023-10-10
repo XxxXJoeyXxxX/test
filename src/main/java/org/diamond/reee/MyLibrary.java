@@ -21,5 +21,7 @@ public class MyLibrary extends JavaPlugin {
         MyLibrary.plugin = plugin;
         plugin.getLogger().log(Level.INFO, plugin.getClass().getName());
     }
-
+    public static JavaPlugin getPlugin(JavaPlugin plug){
+        return plugin;
+    }
 }
