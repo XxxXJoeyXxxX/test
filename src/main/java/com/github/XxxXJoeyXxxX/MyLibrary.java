@@ -1,4 +1,4 @@
-package org.diamond.reee;
+package com.github.XxxXJoeyXxxX;
 
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;

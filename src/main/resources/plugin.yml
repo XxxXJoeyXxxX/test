@@ -1,5 +1,5 @@
 name: reee
 version: '${project.version}'
-main: org.diamond.reee.MyLibrary
+main: com.github.XxxXJoeyXxxX.MyLibrary
 api-version: '1.16'
 load: STARTUP

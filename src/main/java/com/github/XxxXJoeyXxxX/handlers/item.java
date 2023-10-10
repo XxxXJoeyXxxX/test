@@ -1,4 +1,4 @@
-package org.diamond.reee.handlers;
+package com.github.XxxXJoeyXxxX.handlers;
 
 import org.bukkit.ChatColor;
 
